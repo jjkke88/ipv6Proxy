@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8"/>
 <!-- 新 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -58,9 +58,9 @@
   <div class="panel-heading">部分程序解析</div>
   <div class="panel-body">
   <code>
-  	SocketServer.TCPServer.address_family=socket.AF_INET6<br/>
-	server = SocketServer.ThreadingTCPServer(addr,Servers)<br/>
-	server.serve_forever()<br/>
+    SocketServer.TCPServer.address_family=socket.AF_INET6<br/>
+  server = SocketServer.ThreadingTCPServer(addr,Servers)<br/>
+  server.serve_forever()<br/>
   </code>
   这三句用于开启服务线程，每接收到一个代理请求，均开启新的线程进行处理。
 
